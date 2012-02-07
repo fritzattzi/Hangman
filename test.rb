@@ -1,4 +1,4 @@
-# The words come from file
+#The words come from file
 wordsfile = open("words.txt")
 a = wordsfile.read(wordsfile.size).to_s
 a = a.scan(/\w+/)
