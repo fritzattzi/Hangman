@@ -15,6 +15,8 @@ if word[0].upcase! == nil
 end
 end
 
+# target = File.readlines("/usr/share/dict/words").sample.chomp.upcase
+
 # Now we have a word
 losecounter = 10
 puts "Set the difficulty h for hard, m for medium, e for easy"
