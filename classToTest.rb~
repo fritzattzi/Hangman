@@ -1,0 +1,5 @@
+class code
+  def code_works(int)
+    
+  end
+end

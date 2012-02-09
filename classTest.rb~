@@ -1,0 +1,7 @@
+require './classToTest'
+require 'test/unit'
+  class Code < Test::Unit::TestCase
+     def test_fail
+      assert(code_works(4711),'Code does not work with 4711.')
+     end
+  end
